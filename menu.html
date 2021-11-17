@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;700&family=Old+Standard+TT:ital@0;1&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>メニューページ | 和菓子屋 あんこ</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/2536b4663b.js" crossorigin="anonymous"></script>
+    <script src="js/smooth-scroll.js"></script>
+</head>
+
+<body id="menu">
+    <header>
+        <div class="inner">
+            <div class="inner-in">
+                <img src="images/header-image.png" alt="和菓子屋あんこのロゴマーク">
+                <h1><a href="/"><img src="images/header-rogo.png" alt="和菓子屋あんこ"></a></h1>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="/">
+                                <span class="nomal">Home</span>
+                                <span class="hover">ホーム</span>
+                            </a></li>
+                        <li><a href="concept.html">
+                                <span class="nomal">Concept</span>
+                                <span class="hover">店舗概要</span>
+                            </a></li>
+                        <li><a href="taste.html">
+                                <span class="nomal">Taste</span>
+                                <span class="hover">おいしさ</span>
+                            </a></li>
+                        <li><a href="menu.html">
+                                <span class="nomal">Menu</span>
+                                <span class="hover">メニュー</span>
+                            </a></li>
+                        <li><a href="/#access-page">
+                                <span class="nomal">Access</span>
+                                <span class="hover">アクセス</span>
+                            </a></li>
+                    </ul>
+
+                </nav>
+            </div>
+        </div>
+        <nav class="sub-nav">
+            <ul>
+                <li id="contact"><a>
+                        <span class="nomal">Contact</span>
+                        <span class="hover">お問い合わせ</span>
+                    </a></li>
+                <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+                <li><a class="back-top scroll-fade" href="#top"><img src="images/to-top.png" alt="トップへ戻る"></a>
+                </li>
+            </ul>
+        </nav>
+        <!-- 追加コーディング -->
+        <div class="form kakusu">
+            <div class="gray-page">
+                <div class="nakami">
+                    <div class="moji">
+                        <p class="left"><strong>必須</strong></p>
+                        <p class="right">お名前</p>
+                    </div>
+                    <input type="text" name="name" required>
+
+                    <div class="moji">
+                        <p class="left"><strong>必須</strong></p>
+                        <p class="right">メールアドレス</p>
+                    </div>
+                    <input type="email" name="mail" required>
+
+                    <p class="tel">電話番号</p>
+                    <input type="tel" name="tel">
+
+                    <div class="moji">
+                        <p class="left"><strong>必須</strong></p>
+                        <p class="right">お問い合わせ</p>
+                    </div>
+                    <textarea name="info"></textarea>
+
+                    <input type="submit" id="otoiawaseru" value="問い合わせる">
+
+                    <button type="submit" id="close"><a href="menu.html"><img src="images/batu.png" alt="閉じる" width="30"
+                                height="30"></a></button>
+                </div>
+                <div class="nakami-next">
+                    <p>お問い合わせありがとうございました。<br>お客さまの記入された内容は正しく送信されました。</p>
+                    <button type="submit" id="close"><a href="menu.html"><img src="images/batu.png" alt="閉じる" width="30"
+                                height="30"></a></button>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+        <div class="sub-page-image">
+            <img src="images/menu-main@2x.jpg" alt="和菓子屋 あんこのメニューページです">
+        </div>
+
+        <section>
+            <div class="sub-midasi">
+                <div class="h2-title">
+                    <h2>Menu</h2>
+                    <p>「味わい」を楽しむ<br>あんこの専門店</p>
+                </div>
+                <h3>味も見た目もすべてを楽しむ</h3>
+            </div>
+        </section>
+
+        <div class="main-slide single-item">
+            <div><img src="images/menu-slide1.jpg" alt="おしゃれな和菓子を楽しむことができます"></div>
+            <div><img src="images/menu-slide2.jpg" alt="かわいい和菓子を楽しむことができます"></div>
+            <div><img src="images/menu-slide3.jpg" alt="和菓子屋 あんこはすべての商品を持ち帰ることができます"></div>
+        </div>
+
+        <div class="komidasi">
+            <h4>和菓子屋 あんこ のメニューはすべて持ち帰りできます。</h4>
+        </div>
+
+        <div class="text-wrap">
+            <div class="show-text">
+
+                <!-- メニュー表　横３*３個ずつ -->
+                <figure>
+                    <img src="images/menu-ohagi.jpg" alt="あんこたっぷりのおはぎ">
+                    <figcaption>
+                        <div class="menu-content">
+                            <h5>昔ながらの おはぎ</h5>
+                            <p>1ヶ150円（税込み）</p>
+                        </div>
+                        <p>
+                            和菓子屋 あんこのおすすめ商品。<br>創業以来こだわり続けたあんこをたっぷりとお召し上がりください。
+                        </p>
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/menu-obanyaki.jpg" alt="あんこたっぷりの大判焼き">
+                    <figcaption>
+                        <div class="menu-content">
+                            <h5>大判焼き</h5>
+                            <p>1ヶ200円（税込み）</p>
+                        </div>
+                        <p>
+                            中はあんこたっぷり、外も柔らかく、どなたにも美味しく召し上がっていただける商品です。
+                        </p>
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/menu-momiji.jpg" alt="あんこたっぷりのもみじ饅頭">
+                    <figcaption>
+                        <div class="menu-content">
+                            <h5>もみじ饅頭</h5>
+                            <p>1ヶ150円（税込み）</p>
+                        </div>
+                        <p>
+                            見た目の可愛さもありながら、中にはたくさんのあんこを詰めています。
+                        </p>
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/menu-yatuhasi.jpg" alt="和菓子屋 あんこオリジナル八つ橋">
+                    <figcaption>
+                        <div class="menu-content">
+                            <h5>八つ橋</h5>
+                            <p>1ヶ150円（税込み）</p>
+                        </div>
+                        <p>
+                            京都を代表する和菓子を沖縄で再現。<br>餅にもこだわっています。
+                        </p>
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/menu-itigodaihuku.jpg" alt="甘酸っぱさが美味しいいちご大福">
+                    <figcaption>
+                        <div class="menu-content">
+                            <h5>いちご大福</h5>
+                            <p>1ヶ200円（税込み）</p>
+                        </div>
+                        <p>
+                            こだわりのあんこと、大きいいちごを合わせました。いちごの甘酸っぱさと、あんこの甘みをお楽しみください。
+                        </p>
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/menu-sakuramoti.jpg" alt="香りも楽しめる桜餅">
+                    <figcaption>
+                        <div class="menu-content">
+                            <h5>桜餅</h5>
+                            <p>1ヶ200円（税込み）</p>
+                        </div>
+                        <p>
+                            味にも、香りにもこだわった一品です。<br>桜色のかわいらしい商品です。
+                        </p>
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/menu-mizuyoukan.jpg" alt="こだわり餡の自家製水ようかん">
+                    <figcaption>
+                        <div class="menu-content">
+                            <h5>水ようかん</h5>
+                            <p>1ヶ150円（税込み）</p>
+                        </div>
+                        <p>
+                            冷たい水ようかんです。<br>こだわりの小豆から作った、さっぱりと食べやすい商品です。
+                        </p>
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/menu-youkan.jpg" alt="こだわり餡と水信玄餅の新しい組み合わせ">
+                    <figcaption>
+                        <div class="menu-content">
+                            <h5>水信玄餅</h5>
+                            <p>1ヶ300円（税込み）</p>
+                        </div>
+                        <p>
+                            水信玄餅と、こだわりのあんこを組み合わせた一品です。<br>見た目も味もお楽しみください。
+                        </p>
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/menu-taiyaki.jpg" alt="あんこたっぷりのたい焼き">
+                    <figcaption>
+                        <div class="menu-content">
+                            <h5>たい焼き</h5>
+                            <p>1ヶ150円（税込み）</p>
+                        </div>
+                        <p>
+                            外はかりかり、中はたっぷりあんこの、古くから日本で愛されている一品です。
+                        </p>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <button class="readmore">View More</button>
+
+            <!-- 隠れる所 -->
+            <div class="under-class hide-text">
+                <figure>
+                    <img src="images/menu-kintuba.jpg" alt="あんこたっぷりのきんつば">
+                    <figcaption>
+                        <div class="menu-content">
+                            <h5>きんつば</h5>
+                            <p>1ヶ150円（税込み）</p>
+                        </div>
+                        <p>
+                            食べ応えのある粒あんがぎゅっと詰め込まれた一品。食べると癖になります。
+                        </p>
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/menu-zundamoti.jpg" alt="枝豆を組み合わせた餡がおいしい">
+                    <figcaption>
+                        <div class="menu-content">
+                            <h5>ずんだ餅</h5>
+                            <p>6ヶ500円（税込み）</p>
+                        </div>
+                        <p>
+                            宮城県を中心とした地域の郷土菓子。<br>こだわりのあんこに枝豆をすりつぶしたものを組み合わせています。
+                        </p>
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/menu-tosuto.jpg" alt="あんこたっぷりサクサクトースト">
+                    <figcaption>
+                        <div class="menu-content">
+                            <h5>あんトースト</h5>
+                            <p>1ヶ350円（税込み）</p>
+                        </div>
+                        <p>
+                            サクサク・ふわふわの食パンに、こだわりの粒あんをたっぷりのせました。
+                        </p>
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/menu-ice.jpg" alt="抹茶あいすとあんこがのったパンケーキ">
+                    <figcaption>
+                        <div class="menu-content">
+                            <h5>抹茶アイスパンケーキ</h5>
+                            <p>1ヶ750円（税込み）</p>
+                        </div>
+                        <p>
+                            冷たいアイスに温かいパンケーキの組み合わせ。こだわりの粒あんをたくさん間に挟みました。
+                        </p>
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/menu-kakigori.jpg" alt="フルーツと小豆のかき氷">
+                    <figcaption>
+                        <div class="menu-content">
+                            <h5>かき氷</h5>
+                            <p>1ヶ500円（税込み）</p>
+                        </div>
+                        <p>
+                            フルーツと小豆とかき氷をバランスよく組み合わせました。お子様でも美味しくお召し上がりいただける一品です。
+                        </p>
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/menu-ujikintoki.jpg" alt="あんこたっぷりの宇治金時">
+                    <figcaption>
+                        <div class="menu-content">
+                            <h5>宇治金時</h5>
+                            <p>1ヶ750円（税込み）</p>
+                        </div>
+                        <p>
+                            最高級品の宇治抹茶を使用した商品です。<br>こだわりのあんことの組み合わせも抜群です。
+                        </p>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="inner">
+            <div class="rogo-address">
+                <div class="logo">
+                    <a href="/"><img src="images/footer-rogo.png" alt="和菓子屋あんこ"></a>
+                </div>
+                <address>〒904-0115 沖縄県 北谷町 美浜1丁目5-16</address>
+            </div>
+            <div class="nav-small">
+                <nav>
+                    <ul>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Terms And Conditions</a></li>
+                    </ul>
+                </nav>
+                <p><small>Copyright &copy; 2006-2020 Anco. All Rights Reserved.</small></p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/header-color.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/common.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8H87MEC15W"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-8H87MEC15W');
+    </script>
+</body>
+
+</html>
