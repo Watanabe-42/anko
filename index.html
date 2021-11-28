@@ -13,9 +13,11 @@
         rel="stylesheet">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <title>和菓子屋 あんこ ~こだわりあんこの美味しい和菓子屋~</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/2536b4663b.js" crossorigin="anonymous"></script>
+    <script src="js/common.js"></script>
     <script src="js/smooth-scroll.js"></script>
 </head>
 
@@ -24,10 +26,10 @@
         <div class="inner">
             <div class="inner-in">
                 <img src="images/header-image.png" alt="和菓子屋あんこのロゴマーク">
-                <h1><a href="index.html"><img src="images/header-rogo.png" alt="和菓子屋あんこ"></a></h1>
+                <h1><a href="/"><img src="images/header-rogo.png" alt="和菓子屋あんこ"></a></h1>
                 <nav class="main-nav">
                     <ul>
-                        <li><a href="index.html">
+                        <li><a href="/">
                                 <span class="nomal">Home</span>
                                 <span class="hover">ホーム</span>
                             </a></li>
@@ -49,60 +51,80 @@
                             </a></li>
                     </ul>
                 </nav>
+
+                <!-- ハンバーガーメニュー　レスポンシブの時だけ -->
+                <div class="openbtn1">
+                    <span></span><span></span><span></span>
+                </div>
+
             </div>
-        </div>
-        <nav class="sub-nav">
-            <ul>
-                <li id="contact"><a>
-                        <span class="nomal">Contact</span>
-                        <span class="hover">お問い合わせ</span>
-                    </a></li>
-                <li><a href=""><i class="fab fa-instagram"></i></a></li>
-                <li><a href=""><i class="fab fa-twitter"></i></a></li>
-                <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
-                <li><a class="back-top scroll-fade" href="#top"><img src="images/to-top.png" alt="トップへ戻る"></a>
-                </li>
-            </ul>
-        </nav>
+            <nav class="sub-nav">
+                <ul>
+                    <li id="contact"><a>
+                            <span class="nomal">Contact</span>
+                            <span class="hover">お問い合わせ</span>
+                        </a></li>
+                    <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                    <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                    <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+                    <li><a class="back-top scroll-fade" href="#top"><img src="images/to-top.png" alt="トップへ戻る"></a>
+                    </li>
+                </ul>
+            </nav>
 
-        <!-- 追加コーディング -->
-        <div class="form kakusu">
-            <div class="gray-page">
-                <div class="nakami">
+            <!-- 追加コーディング -->
+            <div class="form kakusu">
+                <div class="gray-page">
+                    <div class="nakami">
 
-                    <div class="moji">
-                        <p class="left"><strong>必須</strong></p>
-                        <p class="right">お名前</p>
+                        <div class="moji">
+                            <p class="left"><strong>必須</strong></p>
+                            <p class="right">お名前</p>
+                        </div>
+                        <input type="text" name="name" required>
+
+                        <div class="moji">
+                            <p class="left"><strong>必須</strong></p>
+                            <p class="right">メールアドレス</p>
+                        </div>
+                        <input type="email" name="mail" required>
+
+                        <p class="tel">電話番号</p>
+                        <input type="tel" name="tel">
+
+                        <div class="moji">
+                            <p class="left"><strong>必須</strong></p>
+                            <p class="right">お問い合わせ</p>
+                        </div>
+                        <textarea name="info"></textarea>
+
+                        <input type="submit" id="otoiawaseru" value="問い合わせる">
+                        <button type="submit" id="close"><a href="/"><img src="images/batu.png" alt="閉じる" width="30"
+                                    height="30"></a></button>
+
                     </div>
-                    <input type="text" name="name" required>
-
-                    <div class="moji">
-                        <p class="left"><strong>必須</strong></p>
-                        <p class="right">メールアドレス</p>
+                    <div class="nakami-next">
+                        <p>お問い合わせありがとうございました。<br>お客さまの記入された内容は正しく送信されました。</p>
+                        <button type="submit" id="close"><a href="/"><img src="images/batu.png" alt="閉じる" width="30"
+                                    height="30"></a></button>
                     </div>
-                    <input type="email" name="mail" required>
 
-                    <p class="tel">電話番号</p>
-                    <input type="tel" name="tel">
-
-                    <div class="moji">
-                        <p class="left"><strong>必須</strong></p>
-                        <p class="right">お問い合わせ</p>
-                    </div>
-                    <textarea name="info"></textarea>
-
-                    <input type="submit" id="otoiawaseru" value="問い合わせる">
-                    <button type="submit" id="close"><a href="index.html"><img src="images/batu.png" alt="閉じる"
-                                width="30" height="30"></a></button>
 
                 </div>
-                <div class="nakami-next">
-                    <p>お問い合わせありがとうございました。<br>お客さまの記入された内容は正しく送信されました。</p>
-                    <button type="submit" id="close"><a href="index.html"><img src="images/batu.png" alt="閉じる"
-                                width="30" height="30"></a></button>
-                </div>
+            </div>
 
-
+            <div class="hamburger-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="concept.html">Concept</a></li>
+                    <li><a href="taste.html">Taste</a></li>
+                    <li><a href="index.html#access-page">Access</a></li>
+                </ul>
+                <ul class="sns-nav">
+                    <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                    <li><a href=""></a><i class="fab fa-twitter"></i></li>
+                    <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+                </ul>
             </div>
         </div>
     </header>
@@ -138,6 +160,15 @@
 
         <section class="home-taste">
             <div class="content">
+
+                <!-- レスポンシブの時だけ表示する -->
+                <div class="midasi responsive-on">
+                    <h2>Taste</h2>
+                    <p>シンプルだからこそ、<br>餡にこだわる。</p>
+                </div>
+                　　
+                <!-- / -->
+
                 <div class="sub-image">
                     <img src="images/main-anko.jpg" alt="創業以来こだわり続けた自家製餡">
                 </div>
@@ -186,6 +217,13 @@
 
         <section class="home-access" id="access-page">
             <div class="content">
+                <!-- レスポンシブの時だけ表示する -->
+                <div class="midasi responsive-on">
+                    <h2>Access</h2>
+                    <p>ようこそ、<br>和菓子屋 あんこへ</p>
+                </div>
+                <!-- / -->
+
                 <div class="google-map">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3576.4119260437305!2d127.7592903153957!3d26.313157791976035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34e5131cad212c9f%3A0xdeb1c66612a7dc57!2z5a2m5qCh5rOV5Lq65Y2X5pif5a2m5ZyS44K144Kk44OG44Kv44Kr44Os44OD44K4576O5rWc!5e0!3m2!1sja!2sjp!4v1635479912423!5m2!1sja!2sjp"
@@ -213,7 +251,7 @@
         <div class="inner">
             <div class="rogo-address">
                 <div class="logo">
-                    <a href="index.html"><img src="images/footer-rogo.png" alt="和菓子屋あんこ"></a>
+                    <a href="/"><img src="images/footer-rogo.png" alt="和菓子屋あんこ"></a>
                 </div>
                 <address>〒904-0115 沖縄県 北谷町 美浜1丁目5-16</address>
             </div>

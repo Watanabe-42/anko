@@ -70,3 +70,21 @@ $(function () {
         $('.nakami-next').css('display', 'inline');
     });
 });
+
+// ハンバーガーメニュー
+$(function () {
+    $(".openbtn1").click(function () {
+        $(this).toggleClass('active');
+    });
+});
+
+$(function () {
+    $('.hamburger-menu').addClass('kakusu');
+    $('.openbtn1').click(function () {
+        if ($(this).hasClass('active')) {
+            $('.hamburger-menu').removeClass('kakusu');
+        } else {
+            $('.hamburger-menu').addClass('kakusu');
+        }
+    });
+});

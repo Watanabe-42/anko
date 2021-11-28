@@ -13,9 +13,11 @@
         rel="stylesheet">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <title>メニューページ | 和菓子屋 あんこ</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/2536b4663b.js" crossorigin="anonymous"></script>
+    <script src="js/common.js"></script>
     <script src="js/smooth-scroll.js"></script>
 </head>
 
@@ -24,10 +26,10 @@
         <div class="inner">
             <div class="inner-in">
                 <img src="images/header-image.png" alt="和菓子屋あんこのロゴマーク">
-                <h1><a href="index.html"><img src="images/header-rogo.png" alt="和菓子屋あんこ"></a></h1>
+                <h1><a href="/"><img src="images/header-rogo.png" alt="和菓子屋あんこ"></a></h1>
                 <nav class="main-nav">
                     <ul>
-                        <li><a href="index.html">
+                        <li><a href="/">
                                 <span class="nomal">Home</span>
                                 <span class="hover">ホーム</span>
                             </a></li>
@@ -43,13 +45,19 @@
                                 <span class="nomal">Menu</span>
                                 <span class="hover">メニュー</span>
                             </a></li>
-                        <li><a href="index.html#access-page">
+                        <li><a href="/#access-page">
                                 <span class="nomal">Access</span>
                                 <span class="hover">アクセス</span>
                             </a></li>
                     </ul>
 
                 </nav>
+
+                <!-- ハンバーガーメニュー　レスポンシブの時だけ -->
+                <div class="openbtn1">
+                    <span></span><span></span><span></span>
+                </div>
+
             </div>
         </div>
         <nav class="sub-nav">
@@ -101,6 +109,20 @@
                                 height="30"></a></button>
                 </div>
             </div>
+        </div>
+
+        <div class="hamburger-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="concept.html">Concept</a></li>
+                <li><a href="taste.html">Taste</a></li>
+                <li><a href="index.html#access-page">Access</a></li>
+            </ul>
+            <ul class="sns-nav">
+                <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                <li><a href=""></a><i class="fab fa-twitter"></i></li>
+                <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+            </ul>
         </div>
 
     </header>
@@ -342,7 +364,7 @@
         <div class="inner">
             <div class="rogo-address">
                 <div class="logo">
-                    <a href="index.html"><img src="images/footer-rogo.png" alt="和菓子屋あんこ"></a>
+                    <a href="/"><img src="images/footer-rogo.png" alt="和菓子屋あんこ"></a>
                 </div>
                 <address>〒904-0115 沖縄県 北谷町 美浜1丁目5-16</address>
             </div>

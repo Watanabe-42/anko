@@ -1,0 +1,422 @@
+@media (max-width: 500px) {
+
+    /* ---------------------------------
+                全体構造　幅
+    --------------------------------- */
+    header .inner-in {
+        width: auto;
+    }
+
+    header .sub-nav {
+        width: auto;
+    }
+
+    header .form .nakami {
+        width: auto;
+    }
+
+    header .form .nakami {
+        width: 100%;
+    }
+
+    header .form .nakami-next {
+        width: auto;
+    }
+
+    footer .inner {
+        width: auto;
+    }
+
+    main section {
+        width: auto;
+    }
+
+    #home main .setumei {
+        width: auto;
+    }
+
+    #home main .home-menu .osinagaki {
+        width: auto;
+    }
+
+    #taste main .sub-slidshow {
+        width: auto;
+    }
+
+    #taste main section .mawari {
+        width: auto;
+    }
+
+    #taste main section li .kounou {
+        width: auto;
+    }
+
+    #menu main .komidasi {
+        width: auto;
+    }
+
+    #menu main .text-wrap {
+        width: auto;
+    }
+
+    #menu main button {
+        width: 300px;
+    }
+
+    /* ---------------------------------
+            ヘッダーここから        
+    --------------------------------- */
+    header .inner-in {
+        padding: 0 10px;
+    }
+
+    header .inner-in img {
+        width: 10%;
+    }
+    
+    header .inner-in nav {
+        display: none;
+    }
+
+    header .sub-nav li {
+        display: none;
+    }
+
+    header .sub-nav li:first-child {
+        display: block;
+    }
+
+    header .inner-in h1 {
+        margin-left: 50px;
+    }
+
+    header .inner-in h1 img {
+        width: 70%;
+    }
+
+    /* headerのコンタクトページ */
+    header .form .gray-page p {
+        font-size: 14px;
+    }
+
+    header .form .nakami {
+        width: auto;
+        padding: 50px 10px;
+    }
+
+    header .form .nakami input,
+    header .form .nakami textarea {
+        width: 100%;
+    }
+
+    header .form .nakami textarea {
+        height: 125px;
+    }
+
+    header .form .nakami input[type="submit"] {
+        margin: 0;
+    }
+
+    header .form .nakami button {
+        top: 10px;
+    }
+
+    header .form .nakami button img {
+        width: 20px;
+        height: 20px;
+    }
+
+    header .form .nakami-next button img {
+        width: 20px;
+        height: 20px;
+    }
+
+
+    /* ハンバーガーメニュー */
+    header .inner-in .openbtn1 {
+        display: block;
+    }
+
+    header .inner-in h1,
+    header .inner-in .openbtn1 {
+        z-index: 999;
+    }
+
+
+
+
+
+    /* ---------------------------------
+           フッターここから 
+    --------------------------------- */
+    footer .inner {
+        display: block;
+        text-align: center;
+    }
+
+    footer .inner .rogo-address address {
+        display: none;
+    }
+
+    footer .inner .rogo-address {
+        margin-bottom: 30px;
+    }
+
+    footer .inner .nav-small nav {
+        display: none;
+    }
+
+    footer .inner .nav-small p {
+        text-align: center;
+    }
+
+    /* ---------------------------------
+           メインここから 
+    --------------------------------- */    
+    main section {
+        padding: 0 10px;
+        margin-bottom: 100px;
+    }
+
+    main section .sub-midasi h2 {
+        font-size: 25px;
+    }
+
+    main section .sub-midasi p {
+        font-size: 14px;
+    }
+
+    main section .sub-midasi p br {
+        display: none;
+    }
+
+    main section .sub-midasi h3 {
+        font-size: 14px;
+        margin-top: 0px;
+        text-align: right;
+    }
+
+    main section .midasi {
+        margin-bottom: 30px;
+    }
+
+    main section img {
+        width: 100%;
+    }
+
+    main section .sub-image {
+        margin-left: 0;
+    }
+
+    main section .sub-honbun {
+        display: block;
+    }
+
+    main section .sub-honbun .bunsyou {
+        margin-bottom: 20px;
+    }
+
+    main section .img-right {
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    /* ---------------------------------
+            ホームここから 
+    --------------------------------- */
+    #home main .content {
+        display: block;
+    }
+
+    #home main .setumei {
+        width: auto;
+    }
+
+    /* コンセプトここから */
+    #home main .home-concept {
+        margin-bottom: 150px;
+        position: static;
+    }
+
+    #home main .home-concept .setumei {
+        position: static;
+    }
+
+    /* テイストここから */
+    #home main .home-taste {
+        margin-bottom: 150px;
+        position: static;
+    }
+
+    #home main .home-taste .content .midasi {
+        display: none;
+    }
+
+    #home main .home-taste .content .responsive-on {
+        display: block;
+    }
+
+    #home main .home-taste .setumei {
+        position: static;
+    }
+
+    /* メニューここから */
+    #home main .home-menu {
+        margin-bottom: 150px;
+    }
+
+    #home main .home-menu .no-font {
+        width: 100%;
+        height: 1070px;
+    }
+    
+    #home main .home-menu .osinagaki {
+        left: 0;
+        top: 90px;
+
+        margin: 0 20px;
+        padding: 20px 20px;
+    }
+
+    #home main .home-menu .osinagaki ul {
+        flex-wrap: wrap;
+    }
+
+    #home main .home-menu .osinagaki ul li {
+        margin: 0 auto;
+    }
+
+
+
+
+    /* アクセスここ */
+    #home main .home-access {
+        margin-bottom: 150px;
+        position: static;
+    }
+
+    #home main .home-access .content .midasi {
+        display: none;
+    }
+
+    #home main .home-access .content .responsive-on {
+        display: block;
+    }
+
+
+    #home main .home-access .content .google-map iframe {
+        width: 100%;
+    } 
+
+    #home main .home-access .setumei {
+        position: static;
+        width: auto;
+    }
+    /* ---------------------------------
+            Taste 商品紹介ここから
+    --------------------------------- */
+    #taste main {
+        margin-top: 290px;
+    }
+
+    #taste main .sub-page-image img {
+        height: 290px;
+    }
+
+    #taste main .sub-slidshow {
+        margin-bottom: 50px;
+    }
+
+    #taste main .sub-slidshow img {
+        width: 90%;
+    }
+    
+    /* ---------------------------------
+            Concept 店舗紹介ここから
+    --------------------------------- */
+    #concept main{
+        margin-top: 290px;
+    }
+
+    #concept main .sub-page-image img{
+        height: 290px;
+    }
+
+    #concept main .staff {
+        display: block;
+    }
+
+    #concept main .staff h2 {
+        font-size: 25px;
+    }
+
+    #concept main .staff .staff-midasi {
+        width: auto;
+        margin-bottom: 20px;
+    }
+
+    #concept main .staff .staff-midasi .syoukai {
+        font-size: 14px;
+    }
+
+    #concept main .staff .staff-photo ul {
+        display: block;
+    }
+
+    #concept main .staff .staff-photo ul li {
+        margin-bottom: 20px;
+    }
+
+    #concept main .staff .staff-photo ul li img {
+        width: 50%;
+    }
+
+    /* ---------------------------------
+            Menu メニューページここから
+    --------------------------------- */
+    #menu main{
+        margin-top: 290px;
+    }
+
+    #menu main .sub-page-image img{
+        height: 290px;
+    }
+
+    #menu main .main-slide {
+        margin-bottom: 60px;
+    }
+
+    #menu main .slick-slider {
+        width: auto;
+    }
+
+    #menu main .main-slide img {
+        height: 200px;
+    }
+
+    #menu main .komidasi {
+        line-height: 1.4;
+        margin-bottom: 60px;
+    }
+
+    #menu main .show-text {
+        display: block;
+        width: 300px;
+        margin: 0 auto;
+    }
+    #menu main .under-class {
+        display: block;
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    #menu main figure {
+        margin-right: 0;
+    }
+
+    #menu main button {
+        display: none;
+    }
+
+
+}
