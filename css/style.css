@@ -111,6 +111,91 @@ header .inner-in li:first-child {
   margin-left: 0;
 }
 
+header .inner-in .openbtn1 {
+  display: none;
+  position: relative;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+}
+
+header .inner-in .openbtn1 span {
+  display: inline-block;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  position: absolute;
+  left: 14px;
+  height: 1px;
+  border-radius: 2px;
+  background-color: #000;
+  width: 45%;
+}
+
+header .inner-in .openbtn1 span:nth-of-type(1) {
+  top: 10px;
+}
+
+header .inner-in .openbtn1 span:nth-of-type(2) {
+  top: 18px;
+}
+
+header .inner-in .openbtn1 span:nth-of-type(3) {
+  top: 26px;
+}
+
+header .inner-in .openbtn1.active span:nth-of-type(1) {
+  top: 13px;
+  left: 18px;
+  -webkit-transform: translateY(6px) rotate(-45deg);
+          transform: translateY(6px) rotate(-45deg);
+  width: 30%;
+}
+
+header .inner-in .openbtn1.active span:nth-of-type(2) {
+  opacity: 0;
+}
+
+header .inner-in .openbtn1.active span:nth-of-type(3) {
+  top: 25px;
+  left: 18px;
+  -webkit-transform: translateY(-6px) rotate(45deg);
+          transform: translateY(-6px) rotate(45deg);
+  width: 30%;
+}
+
+header .hamburger-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-image: url(../images/background-image.png);
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  padding: 150px 10px;
+  text-align: center;
+  pointer-events: all;
+}
+
+header .hamburger-menu ul li {
+  margin-bottom: 30px;
+}
+
+header .hamburger-menu .sns-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+header .hamburger-menu .sns-nav i {
+  margin: 0 15px;
+}
+
 header .sub-nav {
   width: 1100px;
   margin: 0 auto;
@@ -363,6 +448,10 @@ main section {
 main section h3 {
   font-size: 25px;
   margin-top: 50px;
+}
+
+main section .responsive-on {
+  display: none;
 }
 
 main section .sub-midasi {
