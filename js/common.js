@@ -79,6 +79,13 @@ $(function () {
 });
 
 $(function () {
+    $('#responsive-close').click(function () {
+        $('.hamburger-menu').addClass('kakusu');
+        $('.openbtn1').removeClass('active');
+    });
+});
+
+$(function () {
     $('.hamburger-menu').addClass('kakusu');
     $('.openbtn1').click(function () {
         if ($(this).hasClass('active')) {
