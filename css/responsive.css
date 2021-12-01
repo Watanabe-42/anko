@@ -139,11 +139,12 @@
 
     header .inner-in h1,
     header .inner-in .openbtn1 {
-        z-index: 999;
+        z-index: 15;
     }
 
-
-
+    header .change-color {
+        opacity: 1;
+    }
 
 
     /* ---------------------------------

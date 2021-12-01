@@ -22,7 +22,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 100;
+  z-index: 15;
   pointer-events: none;
 }
 
@@ -60,8 +60,8 @@ header .inner {
 
 header .change-color {
   background-image: url(../images/background-image.png);
-  opacity: .9;
   background-color: rgba(255, 255, 255, 0.9);
+  opacity: .9;
 }
 
 header .inner-in {

@@ -25,7 +25,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 100;
+    z-index: 15;
 
     // 下の要素をクリックできるようにするため ポイントイベントをなくした
     pointer-events: none;
@@ -67,8 +67,8 @@ header {
     // スクロールした時ヘッダー背景が変わるjQuery
     .change-color {
         background-image: url(../images/background-image.png);
-        opacity: .9;
         background-color: rgba(255, 255, 255, .9);
+        opacity: .9;
     }
  
  
