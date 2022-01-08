@@ -80,18 +80,18 @@ $(function () {
 
 $(function () {
     $('#responsive-close').click(function () {
-        $('.hamburger-menu').addClass('kakusu');
+        $('.hamburger-menu').addClass('none');
         $('.openbtn1').removeClass('active');
     });
 });
 
 $(function () {
-    $('.hamburger-menu').addClass('kakusu');
+    $('.hamburger-menu').addClass('none');
     $('.openbtn1').click(function () {
         if ($(this).hasClass('active')) {
-            $('.hamburger-menu').removeClass('kakusu');
+            $('.hamburger-menu').removeClass('none');
         } else {
-            $('.hamburger-menu').addClass('kakusu');
+            $('.hamburger-menu').addClass('none');
         }
     });
 });

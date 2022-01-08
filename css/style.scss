@@ -61,7 +61,7 @@ header {
        padding: 44px 0;
 
        //下の要素をクリックできないようにする    
-       pointer-events: auto;
+    //    pointer-events: auto;
     }
  
     // スクロールした時ヘッダー背景が変わるjQuery
@@ -184,6 +184,10 @@ header {
         ul {
             li {
                 margin-bottom: 30px;
+
+                a:hover {
+                    color: #7b2532;
+                }
             }
         }
 
@@ -194,6 +198,10 @@ header {
 
             i {
                 margin: 0 15px;
+                
+                &:hover {
+                    color: #7b2532;
+                }
             }
         }
     }
@@ -250,6 +258,11 @@ header {
         // 初期値は隠す
         display: none;
     }
+
+    .none {
+        display: none;
+    }
+
     .form {
         // 下のページのクリックを無効にする
         pointer-events: auto;

@@ -66,6 +66,15 @@
     /* ---------------------------------
             ヘッダーここから        
     --------------------------------- */
+    header .inner {
+        pointer-events: auto;
+    }
+
+    header .inner .sub-nav,
+    header .inner .sub-nav ul {
+        pointer-events: none;
+    }
+
     header .inner-in {
         padding: 0 10px;
     }
